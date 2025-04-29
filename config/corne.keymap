@@ -93,10 +93,10 @@
 
             display-name = "LGND";
             bindings = <
-&gresc            &kp Q            &kp W             &kp E                &kp R            &kp T          &kp Y    &kp U       &kp I             &kp O    &kp P     &kp PAGE_UP
-&kp LEFT_CONTROL  &hml LEFT_GUI A  &mt LEFT_SHIFT S  &hml LEFT_CONTROL D  &hml LEFT_ALT F  &kp G          &kp H    &kp J       &kp K             &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z            &kp X             &kp C                &kp V            &kp B          &kp N    &kp M       &kp COMMA         &kp DOT  &kp FSLH  &kp PAGE_DOWN
-                                                     &kp LGUI             &lt 2 TAB        &lt 1 SPACE    &kp RET  &kp DELETE  &kp LEFT_CONTROL
+&gresc            &kp Q            &kp W             &kp E                &kp R            &kp T          &kp Y    &kp U          &kp I             &kp O    &kp P     &kp PAGE_UP
+&kp LEFT_CONTROL  &hml LEFT_GUI A  &mt LEFT_SHIFT S  &hml LEFT_CONTROL D  &hml LEFT_ALT F  &kp G          &kp H    &kp J          &kp K             &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z            &kp X             &kp C                &kp V            &kp B          &kp N    &kp M          &kp COMMA         &kp DOT  &kp FSLH  &kp PAGE_DOWN
+                                                     &kp LGUI             &lt 2 TAB        &lt 1 SPACE    &kp RET  &kp BACKSPACE  &kp LEFT_CONTROL
             >;
         };
 
@@ -112,7 +112,7 @@
 &trans  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp ASTERISK       &kp N7        &kp N8        &kp N9        &kp PLUS   &kp EQUAL
 &trans  &trans  &trans  &trans    &trans  &trans       &kp MINUS          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0     &trans
 &trans  &trans  &trans  &trans    &trans  &trans       &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
-                        &kp LGUI  &trans  &kp SPACE    &kp RET            &trans        &kp RALT
+                        &kp LGUI  &trans  &kp SPACE    &kp RET            &kp DEL       &kp RALT
             >;
         };
 
